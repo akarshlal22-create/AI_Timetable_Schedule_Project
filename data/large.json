@@ -1,0 +1,506 @@
+{
+  "name": "large",
+  "seed": 42,
+  "time": {
+    "working_days": 5,
+    "periods_per_day": 7,
+    "break_periods": [
+      3
+    ]
+  },
+  "subjects": [
+    {
+      "code": "MATH201",
+      "name": "Mathematics II",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "MATH202",
+      "name": "Discrete Mathematics",
+      "weekly_hours": 2,
+      "type": "theory"
+    },
+    {
+      "code": "PHY201",
+      "name": "Engineering Physics",
+      "weekly_hours": 2,
+      "type": "theory"
+    },
+    {
+      "code": "CS201",
+      "name": "Data Structures",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "CS202",
+      "name": "OOP with Java",
+      "weekly_hours": 2,
+      "type": "theory"
+    },
+    {
+      "code": "CS203",
+      "name": "Computer Architecture",
+      "weekly_hours": 2,
+      "type": "theory"
+    },
+    {
+      "code": "CS204",
+      "name": "Operating Systems",
+      "weekly_hours": 2,
+      "type": "theory"
+    },
+    {
+      "code": "EE201",
+      "name": "Basic Electronics",
+      "weekly_hours": 2,
+      "type": "theory"
+    },
+    {
+      "code": "EE202",
+      "name": "Circuit Theory",
+      "weekly_hours": 2,
+      "type": "theory"
+    },
+    {
+      "code": "AI201",
+      "name": "Introduction to AI",
+      "weekly_hours": 2,
+      "type": "theory"
+    },
+    {
+      "code": "AI202",
+      "name": "Machine Learning",
+      "weekly_hours": 2,
+      "type": "theory"
+    },
+    {
+      "code": "PHY_LAB",
+      "name": "Physics Lab",
+      "weekly_hours": 1,
+      "type": "lab"
+    },
+    {
+      "code": "CS_LAB1",
+      "name": "Programming Lab I",
+      "weekly_hours": 1,
+      "type": "lab"
+    },
+    {
+      "code": "CS_LAB2",
+      "name": "DS Lab",
+      "weekly_hours": 1,
+      "type": "lab"
+    },
+    {
+      "code": "EE_LAB",
+      "name": "Electronics Lab",
+      "weekly_hours": 1,
+      "type": "lab"
+    },
+    {
+      "code": "AI_LAB",
+      "name": "AI Lab",
+      "weekly_hours": 1,
+      "type": "lab"
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Dr. Sharma",
+      "teachable_subjects": [
+        "MATH201",
+        "MATH202"
+      ],
+      "unavailable_slots": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "max_weekly_load": 18,
+      "preferences": {
+        "no_first_period": true
+      }
+    },
+    {
+      "name": "Dr. Patel",
+      "teachable_subjects": [
+        "PHY201"
+      ],
+      "unavailable_slots": [
+        [
+          3,
+          5
+        ]
+      ],
+      "max_weekly_load": 14,
+      "preferences": {}
+    },
+    {
+      "name": "Dr. Rao",
+      "teachable_subjects": [
+        "CS201",
+        "CS202"
+      ],
+      "unavailable_slots": [
+        [
+          0,
+          5
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "max_weekly_load": 18,
+      "preferences": {
+        "no_first_period": true
+      }
+    },
+    {
+      "name": "Prof. Singh",
+      "teachable_subjects": [
+        "EE201",
+        "EE202"
+      ],
+      "unavailable_slots": [
+        [
+          2,
+          2
+        ]
+      ],
+      "max_weekly_load": 16,
+      "preferences": {}
+    },
+    {
+      "name": "Dr. Mehta",
+      "teachable_subjects": [
+        "PHY201",
+        "PHY_LAB"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 12,
+      "preferences": {}
+    },
+    {
+      "name": "Prof. Kumar",
+      "teachable_subjects": [
+        "CS201",
+        "CS_LAB1"
+      ],
+      "unavailable_slots": [
+        [
+          1,
+          6
+        ]
+      ],
+      "max_weekly_load": 16,
+      "preferences": {}
+    },
+    {
+      "name": "Dr. Verma",
+      "teachable_subjects": [
+        "CS203",
+        "CS204"
+      ],
+      "unavailable_slots": [
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "max_weekly_load": 18,
+      "preferences": {}
+    },
+    {
+      "name": "Dr. Gupta",
+      "teachable_subjects": [
+        "AI201",
+        "AI202"
+      ],
+      "unavailable_slots": [
+        [
+          4,
+          1
+        ]
+      ],
+      "max_weekly_load": 18,
+      "preferences": {
+        "no_first_period": true
+      }
+    },
+    {
+      "name": "Prof. Joshi",
+      "teachable_subjects": [
+        "MATH201",
+        "MATH202"
+      ],
+      "unavailable_slots": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "max_weekly_load": 16,
+      "preferences": {}
+    },
+    {
+      "name": "Dr. Bhat",
+      "teachable_subjects": [
+        "EE201",
+        "EE_LAB"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 12,
+      "preferences": {}
+    },
+    {
+      "name": "Prof. Iyer",
+      "teachable_subjects": [
+        "CS202",
+        "CS_LAB2"
+      ],
+      "unavailable_slots": [
+        [
+          3,
+          1
+        ]
+      ],
+      "max_weekly_load": 16,
+      "preferences": {}
+    },
+    {
+      "name": "Dr. Nair",
+      "teachable_subjects": [
+        "AI201",
+        "AI_LAB"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 10,
+      "preferences": {}
+    },
+    {
+      "name": "Prof. Reddy",
+      "teachable_subjects": [
+        "AI202",
+        "CS204"
+      ],
+      "unavailable_slots": [
+        [
+          2,
+          4
+        ]
+      ],
+      "max_weekly_load": 16,
+      "preferences": {}
+    },
+    {
+      "name": "Dr. Pillai",
+      "teachable_subjects": [
+        "CS203",
+        "EE202"
+      ],
+      "unavailable_slots": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "max_weekly_load": 14,
+      "preferences": {}
+    },
+    {
+      "name": "Prof. Das",
+      "teachable_subjects": [
+        "AI201",
+        "MATH201"
+      ],
+      "unavailable_slots": [
+        [
+          2,
+          5
+        ]
+      ],
+      "max_weekly_load": 14,
+      "preferences": {}
+    }
+  ],
+  "classes": [
+    {
+      "name": "CS-A",
+      "strength": 42,
+      "subject_codes": [
+        "MATH201",
+        "PHY201",
+        "CS201",
+        "CS202",
+        "CS203",
+        "PHY_LAB",
+        "CS_LAB1",
+        "CS_LAB2"
+      ],
+      "lunch_slot": 3
+    },
+    {
+      "name": "CS-B",
+      "strength": 38,
+      "subject_codes": [
+        "MATH201",
+        "PHY201",
+        "CS201",
+        "CS202",
+        "CS203",
+        "PHY_LAB",
+        "CS_LAB1",
+        "CS_LAB2"
+      ],
+      "lunch_slot": 3
+    },
+    {
+      "name": "CS-C",
+      "strength": 40,
+      "subject_codes": [
+        "MATH201",
+        "PHY201",
+        "CS201",
+        "CS202",
+        "CS203",
+        "PHY_LAB",
+        "CS_LAB1",
+        "CS_LAB2"
+      ],
+      "lunch_slot": 3
+    },
+    {
+      "name": "CS-D",
+      "strength": 35,
+      "subject_codes": [
+        "MATH201",
+        "PHY201",
+        "CS201",
+        "CS202",
+        "CS203",
+        "PHY_LAB",
+        "CS_LAB1",
+        "CS_LAB2"
+      ],
+      "lunch_slot": 3
+    },
+    {
+      "name": "EC-A",
+      "strength": 44,
+      "subject_codes": [
+        "MATH201",
+        "PHY201",
+        "EE201",
+        "EE202",
+        "CS202",
+        "PHY_LAB",
+        "EE_LAB"
+      ],
+      "lunch_slot": 3
+    },
+    {
+      "name": "EC-B",
+      "strength": 36,
+      "subject_codes": [
+        "MATH201",
+        "PHY201",
+        "EE201",
+        "EE202",
+        "CS202",
+        "PHY_LAB",
+        "EE_LAB"
+      ],
+      "lunch_slot": 3
+    },
+    {
+      "name": "AI-A",
+      "strength": 38,
+      "subject_codes": [
+        "MATH202",
+        "CS201",
+        "CS204",
+        "AI201",
+        "AI202",
+        "CS_LAB2",
+        "AI_LAB"
+      ],
+      "lunch_slot": 3
+    },
+    {
+      "name": "AI-B",
+      "strength": 34,
+      "subject_codes": [
+        "MATH202",
+        "CS201",
+        "CS204",
+        "AI201",
+        "AI202",
+        "CS_LAB2",
+        "AI_LAB"
+      ],
+      "lunch_slot": 3
+    }
+  ],
+  "rooms": [
+    {
+      "name": "LH-101",
+      "capacity": 60,
+      "type": "classroom"
+    },
+    {
+      "name": "LH-102",
+      "capacity": 55,
+      "type": "classroom"
+    },
+    {
+      "name": "LH-103",
+      "capacity": 50,
+      "type": "classroom"
+    },
+    {
+      "name": "LH-104",
+      "capacity": 50,
+      "type": "classroom"
+    },
+    {
+      "name": "CS-LAB1",
+      "capacity": 48,
+      "type": "lab"
+    },
+    {
+      "name": "CS-LAB2",
+      "capacity": 48,
+      "type": "lab"
+    },
+    {
+      "name": "PH-LAB",
+      "capacity": 48,
+      "type": "lab"
+    },
+    {
+      "name": "EE-LAB",
+      "capacity": 48,
+      "type": "lab"
+    }
+  ]
+}
